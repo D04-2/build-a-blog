@@ -1,0 +1,62 @@
+.home-img{
+    width: 60%;
+    
+    float: left;
+    padding-right: 20px;
+    
+}
+.home-sec{
+    overflow: auto;
+    display: inline-table;
+   padding: 50px;
+   
+   height: 400px;
+   width: 400px;
+    
+}
+/* nav{
+    box-sizing: content-box;
+    
+
+    display: inline-block;
+    
+
+    background-color: rgb(154, 141, 73);
+} */
+
+
+nav {
+    display: flex;
+    background-color: #f5E898;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+
+    font-size: 24px;
+    color: #627e61;
+}
+p{
+     font-family: 'Mochiy Pop P One', sans-serif;;
+}
+.about-img{
+    width: 100%;
+   
+    
+}
+.about-sec{  overflow: auto;
+    display:flex flexbox;
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    border: 1px solid ;
+  
+}
+a:hover{
+    background-color: darkgreen;
+}
